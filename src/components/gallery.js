@@ -5,56 +5,56 @@ class Gallery extends Component {
         return(
             <div>
                 <section id="container">
-                <header class="header black-bg">
-                    <div class="sidebar-toggle-box">
-                        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+                <header className="header black-bg">
+                    <div className="sidebar-toggle-box">
+                        <div className="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
                     </div>
-                    <a href="/" class="logo"><b>Lego<span>las</span></b></a>
+                    <a href="/" className="logo"><b>Lego<span>las</span></b></a>
 
-                    <div class="top-menu">
-                        <ul class="nav pull-right top-menu">
-                        <li><a class="logout" href="/">Logout</a></li>
+                    <div className="top-menu">
+                        <ul className="nav pull-right top-menu">
+                        <li><a className="logout" href="/">Logout</a></li>
                         </ul>
                     </div>
                     </header>
 
                     <aside>
-                    <div id="sidebar" class="nav-collapse ">
-                        <ul class="sidebar-menu" id="nav-accordion">
+                    <div id="sidebar" className="nav-collapse ">
+                        <ul className="sidebar-menu" id="nav-accordion">
 
-                        <li class="mt">
+                        <li className="mt">
                             <a href="/">
-                            <i class="fa fa-dashboard"></i>
+                            <i className="fa fa-dashboard"></i>
                             <span>Dashboard</span>
                             </a>
                         </li>
-                        <li class="sub-menu">
+                        <li className="sub-menu">
                             <a href="javascript:;">
-                            <i class="fa fa-calendar"></i>
+                            <i className="fa fa-calendar"></i>
                             <span>Calendar</span>
                             </a>
-                            <ul class="sub">
+                            <ul className="sub">
                             <li><a href="/calendar">Events</a></li>
                             </ul>
                         </li>
-                        <li class="sub-menu">
-                            <a class="active" href="/gallery">
-                            <i class="fa fa-picture-o"></i>
+                        <li className="sub-menu">
+                            <a className="active" href="/gallery">
+                            <i className="fa fa-picture-o"></i>
                             <span>Gallery</span>
                             </a>
                         </li>
-                        <li class="sub-menu">
+                        <li className="sub-menu">
                             <a href="/contact">
-                            <i class="fa fa-tasks"></i>
+                            <i className="fa fa-tasks"></i>
                             <span>Contact</span>
                             </a>
                         </li>
-                        <li class="sub-menu">
+                        <li className="sub-menu">
                             <a href="javascript:;">
-                            <i class="fa fa-th"></i>
+                            <i className="fa fa-th"></i>
                             <span>Tables</span>
                             </a>
-                            <ul class="sub">
+                            <ul className="sub">
                             <li>
                                 <a href="/">Players</a>
                             </li>
@@ -63,9 +63,9 @@ class Gallery extends Component {
                             </li>
                             </ul>
                         </li>
-                        <li class="sub-menu">
+                        <li className="sub-menu">
                             <a href="/faq">
-                            <i class="fa fa-book"></i>
+                            <i className="fa fa-book"></i>
                             <span>FAQ</span>
                             </a>
                         </li>
@@ -74,45 +74,45 @@ class Gallery extends Component {
                     </aside>
 
                     <section id="main-content">
-                    <section class="wrapper site-min-height">
-                        <h3><i class="fa fa-angle-right"></i> Gallery</h3>
+                    <section className="wrapper site-min-height">
+                        <h3><i className="fa fa-angle-right"></i> Gallery</h3>
                         <hr/>
                         
-                        <div class="row mt">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/wKBd4a6.jpg"><img class="img-responsive" src="https://i.imgur.com/wKBd4a6.jpg" alt=""/></a>
+                        <div className="row mt">
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/wKBd4a6.jpg"><img className="img-responsive" src="https://i.imgur.com/wKBd4a6.jpg" alt=""/></a>
                                 </div>
-                                <div class="overlay"></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/iWT0qOR.jpg"><img class="img-responsive" src="https://i.imgur.com/iWT0qOR.jpg" alt=""/></a>
-                                </div>
-                                <div class="overlay"></div>
+                                <div className="overlay"></div>
                                 </div>
                             </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/y4vxNjf.jpg"><img class="img-responsive" src="https://i.imgur.com/y4vxNjf.jpg" alt=""/></a>
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/iWT0qOR.jpg"><img className="img-responsive" src="https://i.imgur.com/iWT0qOR.jpg" alt=""/></a>
                                 </div>
-                                <div class="overlay"></div>
+                                <div className="overlay"></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/y4vxNjf.jpg"><img className="img-responsive" src="https://i.imgur.com/y4vxNjf.jpg" alt=""/></a>
+                                </div>
+                                <div className="overlay"></div>
                                 </div>
                             </div>
                             </div>
@@ -120,82 +120,82 @@ class Gallery extends Component {
 
                         </div>
 
-                        <div class="row mt mb">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/tZQoxMl.jpg"><img class="img-responsive" src="https://i.imgur.com/tZQoxMl.jpg" alt=""/></a>
+                        <div className="row mt mb">
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/tZQoxMl.jpg"><img className="img-responsive" src="https://i.imgur.com/tZQoxMl.jpg" alt=""/></a>
                                 </div>
-                                <div class="overlay"></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/lvPDbNK.jpg"><img class="img-responsive" src="https://i.imgur.com/lvPDbNK.jpg" alt=""/></a>
-                                </div>
-                                <div class="overlay"></div>
+                                <div className="overlay"></div>
                                 </div>
                             </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/S9kCPq4.jpg"><img class="img-responsive" src="https://i.imgur.com/S9kCPq4.jpg" alt=""/></a>
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/lvPDbNK.jpg"><img className="img-responsive" src="https://i.imgur.com/lvPDbNK.jpg" alt=""/></a>
                                 </div>
-                                <div class="overlay"></div>
+                                <div className="overlay"></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/S9kCPq4.jpg"><img className="img-responsive" src="https://i.imgur.com/S9kCPq4.jpg" alt=""/></a>
+                                </div>
+                                <div className="overlay"></div>
                                 </div>
                             </div>
                             </div>
                         </div>
                         </div>
                         
-                        <div class="row mt mb">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/y4vxNjf.jpg"><img class="img-responsive" src="https://i.imgur.com/y4vxNjf.jpg" alt=""/></a>
+                        <div className="row mt mb">
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/y4vxNjf.jpg"><img className="img-responsive" src="https://i.imgur.com/y4vxNjf.jpg" alt=""/></a>
                                 </div>
-                                <div class="overlay"></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/wKBd4a6.jpg"><img class="img-responsive" src="https://i.imgur.com/wKBd4a6.jpg" alt=""/></a>
-                                </div>
-                                <div class="overlay"></div>
+                                <div className="overlay"></div>
                                 </div>
                             </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-                            <div class="project-wrapper">
-                            <div class="project">
-                                <div class="photo-wrapper">
-                                <div class="photo">
-                                    <a class="fancybox" href="https://i.imgur.com/iWT0qOR.jpg"><img class="img-responsive" src="https://i.imgur.com/iWT0qOR.jpg" alt=""/></a>
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/wKBd4a6.jpg"><img className="img-responsive" src="https://i.imgur.com/wKBd4a6.jpg" alt=""/></a>
                                 </div>
-                                <div class="overlay"></div>
+                                <div className="overlay"></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div className="project-wrapper">
+                            <div className="project">
+                                <div className="photo-wrapper">
+                                <div className="photo">
+                                    <a className="fancybox" href="https://i.imgur.com/iWT0qOR.jpg"><img className="img-responsive" src="https://i.imgur.com/iWT0qOR.jpg" alt=""/></a>
+                                </div>
+                                <div className="overlay"></div>
                                 </div>
                             </div>
                             </div>
@@ -205,14 +205,14 @@ class Gallery extends Component {
 
                     </section>
 
-                    <footer class="site-footer">
-                    <div class="text-center">
+                    <footer className="site-footer">
+                    <div className="text-center">
                         <p>
                         &copy; Copyrights <strong>Legolas</strong>. All Rights Reserved
                         </p>
 
-                        <a href="gallery.html#" class="go-top">
-                        <i class="fa fa-angle-up"></i>
+                        <a href="gallery.html#" className="go-top">
+                        <i className="fa fa-angle-up"></i>
                         </a>
                     </div>
                     </footer>
