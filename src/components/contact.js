@@ -37,56 +37,56 @@ class Contact extends Component {
         return (
             <div>
                 <section id="container">
-                    <header class="header black-bg">
-                        <div class="sidebar-toggle-box">
-                            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+                    <header className="header black-bg">
+                        <div className="sidebar-toggle-box">
+                            <div className="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
                         </div>
-                        <a href="/" class="logo"><b>Lego<span>las</span></b></a>
+                        <a href="/" className="logo"><b>Lego<span>las</span></b></a>
 
-                        <div class="top-menu">
-                            <ul class="nav pull-right top-menu">
-                                <li><a class="logout" href="/">Logout</a></li>
+                        <div className="top-menu">
+                            <ul className="nav pull-right top-menu">
+                                <li><a className="logout" href="/">Logout</a></li>
                             </ul>
                         </div>
                     </header>
 
                     <aside>
-                        <div id="sidebar" class="nav-collapse ">
-                            <ul class="sidebar-menu" id="nav-accordion">
+                        <div id="sidebar" className="nav-collapse ">
+                            <ul className="sidebar-menu" id="nav-accordion">
 
-                                <li class="mt">
+                                <li className="mt">
                                     <a href="/">
-                                        <i class="fa fa-dashboard"></i>
+                                        <i className="fa fa-dashboard"></i>
                                         <span>Dashboard</span>
                                     </a>
                                 </li>
-                                <li class="sub-menu">
+                                <li className="sub-menu">
                                     <a href="javascript:;">
-                                        <i class="fa fa-calendar"></i>
+                                        <i className="fa fa-calendar"></i>
                                         <span>Calendar</span>
                                     </a>
-                                    <ul class="sub">
+                                    <ul className="sub">
                                         <li><a href="/calendar">Events</a></li>
                                     </ul>
                                 </li>
-                                <li class="sub-menu">
+                                <li className="sub-menu">
                                     <a href="/gallery">
-                                        <i class="fa fa-picture-o"></i>
+                                        <i className="fa fa-picture-o"></i>
                                         <span>Gallery</span>
                                     </a>
                                 </li>
-                                <li class="sub-menu">
-                                    <a class="active" href="/contact">
-                                        <i class="fa fa-tasks"></i>
+                                <li className="sub-menu">
+                                    <a className="active" href="/contact">
+                                        <i className="fa fa-tasks"></i>
                                         <span>Contact</span>
                                     </a>
                                 </li>
-                                <li class="sub-menu">
+                                <li className="sub-menu">
                                     <a href="javascript:;">
-                                        <i class="fa fa-th"></i>
+                                        <i className="fa fa-th"></i>
                                         <span>Tables</span>
                                     </a>
-                                    <ul class="sub">
+                                    <ul className="sub">
                                         <li>
                                             <a href="/">Players</a>
                                         </li>
@@ -95,9 +95,9 @@ class Contact extends Component {
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="sub-menu">
+                                <li className="sub-menu">
                                     <a href="/faq">
-                                        <i class="fa fa-book"></i>
+                                        <i className="fa fa-book"></i>
                                         <span>FAQ</span>
                                     </a>
                                 </li>
@@ -106,65 +106,65 @@ class Contact extends Component {
                     </aside>
 
                     <section id="main-content">
-                        <section class="wrapper">
-                            <h3><i class="fa fa-angle-right"></i> Contact</h3>
-                            <div class="row mt">
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <h4 class="title">Send Us An Email</h4>
+                        <section className="wrapper">
+                            <h3><i className="fa fa-angle-right"></i> Contact</h3>
+                            <div className="row mt">
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <h4 className="title">Send Us An Email</h4>
                                     <div id="message"></div>
-                                    <form id="myForm" class="contact-form" role="form"
+                                    <form id="myForm" className="contact-form" role="form"
                                         onSubmit={this.submitForm}
                                         action="https://formspree.io/xpzypqpv"
                                         method="POST">
 
-                                        <div class="form-group">
-                                            <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
-                                            <div class="validate"></div>
+                                        <div className="form-group">
+                                            <input type="name" name="name" className="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                                            <div className="validate"></div>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
-                                            <div class="validate"></div>
+                                        <div className="form-group">
+                                            <input type="email" name="email" className="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
+                                            <div className="validate"></div>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                            <div class="validate"></div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us" required></textarea>
-                                            <div class="validate"></div>
+                                        <div className="form-group">
+                                            <input type="text" name="subject" className="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                            <div className="validate"></div>
                                         </div>
 
-                                        <div class="loading"></div>
-                                        <div class="error-message"></div>
-                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        <div className="form-group">
+                                            <textarea className="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us" required></textarea>
+                                            <div className="validate"></div>
+                                        </div>
 
-                                        <div class="form-send">
-                                            <button type="submit" class="btn btn-large btn-primary">Send Message</button>
+                                        <div className="loading"></div>
+                                        <div className="error-message"></div>
+                                        <div className="sent-message">Your message has been sent. Thank you!</div>
+
+                                        <div className="form-send">
+                                            <button type="submit" className="btn btn-large btn-primary">Send Message</button>
                                         </div>
 
                                     </form>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <h4 class="title">Contact Details</h4>
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <h4 className="title">Contact Details</h4>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <ul class="contact_details">
-                                        <li><i class="fa fa-envelope-o"></i> info@yoursite.com</li>
-                                        <li><i class="fa fa-phone-square"></i> +34 5565 6555</li>
-                                        <li><i class="fa fa-home"></i> Some Fine Address, 887, Madrid, Spain.</li>
+                                    <ul className="contact_details">
+                                        <li><i className="fa fa-envelope-o"></i> info@yoursite.com</li>
+                                        <li><i className="fa fa-phone-square"></i> +34 5565 6555</li>
+                                        <li><i className="fa fa-home"></i> Some Fine Address, 887, Madrid, Spain.</li>
                                     </ul>
                                 </div>
                             </div>
                         </section>
                     </section>
-                    <footer class="site-footer" style={{ position: 'relative', top: '38px', zIndex: '-1' }}>
-                        <div class="text-center">
+                    <footer className="site-footer" style={{ position: 'relative', top: '38px', zIndex: '-1' }}>
+                        <div className="text-center">
                             <p>
                                 &copy; Copyrights <strong>Legolas</strong>. All Rights Reserved
                         </p>
-                            <a href="form_component.html#" class="go-top">
-                                <i class="fa fa-angle-up"></i>
+                            <a href="form_component.html#" className="go-top">
+                                <i className="fa fa-angle-up"></i>
                             </a>
                         </div>
                     </footer>
