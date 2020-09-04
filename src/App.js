@@ -11,6 +11,9 @@ import Index from './components/index';
 import Calendar from './components/calendar';
 import Gallery from './components/gallery';
 import Player from './components/tables/player';
+import NPC from '../components/tables/npc';
+import Weapon from '../components/tables/weapon';
+import Armor from '../components/tables/armor';
 import Contact from './components/contact';
 import FAQ from './components/faq';
 
@@ -25,6 +28,10 @@ class App extends Component {
           <Route exact path='/calendar' component={Calendar}></Route>
           <Route exact path='/gallery' component={Gallery}></Route>
           <Route exact path='/contact' component={Contact}></Route>
+          <Route path="/player" component={Player}></Route>
+          <Route path="/npc" component={NPC}></Route>
+          <Route path="/weapon" component={Weapon}></Route> 
+          <Route path="/armor" component={Armor}></Route>
           <Route exact path='/faq' component={FAQ}></Route>
 
         </div>
