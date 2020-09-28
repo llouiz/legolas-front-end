@@ -11,11 +11,13 @@
     "emailjs-com": "^2.4.1",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
+    "firebase": "^7.21.1",
     "jquery": "^3.5.1",
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "react-s-alert": "^1.4.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
