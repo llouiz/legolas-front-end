@@ -16,10 +16,10 @@ What will you need to do to have legolas running on your server? You'll only hav
 
 ## Authors
 
-* **Luiz Carlos** - *Initial work* - [luikz](https://github.com/luikz)
+* **Luiz Carlos** - *Initial work* - [llouize](https://github.com/llouize)
 
-See also the list of [contributors](https://github.com/luikz/legolas-front-end/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/llouize/legolas-front-end/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/luikz/legolas-front-end/blob/master/LICENSE.md) file for details 
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/llouize/legolas-front-end/blob/master/LICENSE.md) file for details 
