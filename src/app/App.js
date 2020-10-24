@@ -32,7 +32,7 @@ class App extends Component {
       authenticated: false,
       currentUser: null,
       loading: false,
-    };
+    }; 
 
     this.loadCurrentlyLoggedInUser = this.loadCurrentlyLoggedInUser.bind(this);
     this.handleLogout = this.handleLogout.bind(this);
