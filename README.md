@@ -3,7 +3,7 @@ Gaming admin dashboard v.2
 
 ## Getting Started
 
-In order to run Legolas on your system, first of all, you will need to have Node.js installed on your machine.
+In order to run Legolas on your system, you will need to have Node.js installed on your machine.
 
 ### Installing
 
